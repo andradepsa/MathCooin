@@ -1,0 +1,8 @@
+MathCoin - Quick Start Guide
+
+1. Run: mathcoin.exe getnewaddress myname
+2. Mine: mathcoin.exe generate 1 myname  
+3. Check: mathcoin.exe getbalance myname
+
+Based on π + φ (Pi + Golden Ratio)
+First mathematical cryptocurrency!
