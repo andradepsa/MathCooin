@@ -1,0 +1,56 @@
+{
+  "seeds": [
+    {
+      "host": "seed1.mathcoin.network",
+      "port": 8333,
+      "description": "Primary MathCoin seed node"
+    },
+    {
+      "host": "seed2.mathcoin.network", 
+      "port": 8333,
+      "description": "Secondary MathCoin seed node"
+    },
+    {
+      "host": "bootstrap.mathcoin.org",
+      "port": 8333,
+      "description": "Bootstrap node"
+    }
+  ],
+  "peers": [
+    {
+      "host": "node1.mathcoin.network",
+      "port": 8333,
+      "reliability": 95,
+      "lastSeen": "2025-05-29T20:00:00.000Z"
+    },
+    {
+      "host": "node2.mathcoin.network",
+      "port": 8333,
+      "reliability": 90,
+      "lastSeen": "2025-05-29T19:55:00.000Z"
+    }
+  ],
+  "network": {
+    "protocol": "mathcoin",
+    "version": "1.0.0",
+    "magic": "MATH",
+    "defaultPort": 8333,
+    "maxPeers": 8,
+    "connectionTimeout": 10000,
+    "pingInterval": 30000,
+    "discovery": {
+      "enabled": true,
+      "dnsSeeds": [
+        "dnsseed.mathcoin.network",
+        "seed-nodes.mathcoin.org"
+      ]
+    }
+  },
+  "features": {
+    "segwit": false,
+    "compactBlocks": true,
+    "headers": true,
+    "bloom": false,
+    "witness": false
+  }
+}
